@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,700;1,700&display=swap');
+
+body {
+  font-family: 'Cormorant';
+  font-size: 26px;
+  font-style: Medium;
+  font-weight: 500;
+  line-height: 32px;
+
+  background-color: #f8f1eb;
+
+  margin: 69px auto 0 auto;
+
+}
+
+div.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #875FA0;
+  z-index: 1;
+}
+
+
+header {
+  display: flex;
+  line-height: 2;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 77px 97px 77px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: Akira Expanded;
+  font-size: 40px;
+  line-height: 0.8;
+  transform: scale(1, 1.2);
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 55px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 87px 112px 55px 112px;
+
+}
+
+h3 {
+  display: inline-block;
+  font-family: Akira Expanded;
+  font-size: 29px;
+  transform: scale(1, 1.2);
+}
+
+h4 {
+  text-align: center;
+  font-family: Akira Expanded;
+  font-size: 35px;
+  transform: scale(1, 1.2);
+}
+
+p {
+  text-align: center;
+  width: 60%;
+  height: 5%;
+  margin: 0 20% 0 20%;
+}
+
+p a {
+  font-size: 33px;
+  font-style: italic;
+  color: #875FA0;
+}
+
+em {
+  color: #875FA0;
+}
+
+nav {
+  display: inline-block;
+  font-family: Akira Expanded;
+  font-size: 23px;
+  transform: scale(1, 1.2);
+}
+
+nav a {
+  color: black;
+  margin: 0 0 0 40px;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: #875FA0;
+}
+
+
+section.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section.first div.orangesquare {
+  width: 342px;
+  height: 393px;
+  background-color: #F0C2AE;
+  text-align: right;
+}
+
+div.firsttext {
+  text-align: right;
+  width: 361px;
+  height: 252px;
+  margin: 38px 0 0 15px;
+}
+
+section.second {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+section.second div.pinksquare {
+  width: 342px;
+  height: 393px;
+  background-color: #F9DFEB;
+}
+
+div.secondtext {
+  text-align: left;
+  width: 361px;
+  height: 252px;
+  margin: 38px 0 0 -39px;
+}
+
+section.third {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+section.third div.bluesquare {
+  width: 342px;
+  height: 393px;
+  background-color: #C5EEEE;
+  text-align: right;
+}
+
+div.thirdtext {
+  text-align: right;
+  width: 361px;
+  height: 252px;
+  margin: 38px 0 0 15px;
+}
+
+section.fourth {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+
+.brownsquare {
+  width: 342px;
+  height: 393px;
+  background-color: #E3D5D6;
+}
+
+div.fourthtext {
+  text-align: left;
+  width: 361px;
+  height: 252px;
+  margin: 38px 0 0 -39px;
+}
+
+div.marquee1 {
+  height: 56px;
+  width: auto;
+  background-color: #875FA0;
+  overflow: hidden;
+  line-height: 1.7;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3000vw);
+  }
+}
+
+.marquee1 span a {
+
+  font-family: Akira Expanded;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #F8F1EB;
+  letter-spacing: 0.03em;
+
+  animation: moveLeft 400s linear infinite;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+}
+
+/* PROJECT PAGES */
+
+video {
+  margin: 5% 5% 0 5%;
+}
+
+div.projectimages img {
+  margin: 1% 5% 0 5%;
+}
+
+div.otherprojects {
+  display: flex;
+  width: 60vw;
+  margin: 0 20% 10vh 20%;
+  justify-content: center;
+  text-align: center;
+}
+
+div.column {
+  padding-right: 2%;
+  position: relative;
+  text-align: center;
+}
+
+div.moreprojectstext h5 {
+  font-family: Akira Expanded;
+  font-size: 1.6vw;
+  transform: scale(1, 1.2);
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+/* ABOUT PAGE */
+
+section.about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: -50px 0 50px 0;
+}
+
+section.about div.aboutsquare {
+  width: 412px;
+  height: 600px;
+  background-color: #E3D5D6;
+}
+
+div.abouttext {
+  text-align: left;
+  width: 361px;
+  height: 252px;
+  margin: 25px 0 0 -39px;
+}
+
+/* CONTACT PAGE */
+
+div.contact {
+  text-align: center;
+  line-height: 0.3;
+}
+
+
+.contact a {
+  font-size: 2.3vw;
+  color: #875FA0;
+  text-decoration: none;
+}
