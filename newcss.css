@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Cormorant';
-  font-size: 26px;
+  font-size: 28px;
   font-style: Medium;
   font-weight: 500;
   line-height: 32px;
@@ -18,7 +18,7 @@ div.progress {
   top: 0;
   left: 0;
   width: 0%;
-  height: 5px;
+  height: 6px;
   background-color: #875FA0;
   z-index: 1;
 }
@@ -102,6 +102,8 @@ nav a:hover {
   color: #875FA0;
 }
 
+/* INDEX.HTML */
+
 
 section.first {
   display: flex;
@@ -120,7 +122,7 @@ div.firsttext {
   text-align: right;
   width: 361px;
   height: 252px;
-  margin: 38px 0 0 15px;
+  margin: 80px 0 0 15px;
 }
 
 section.second {
@@ -140,7 +142,7 @@ div.secondtext {
   text-align: left;
   width: 361px;
   height: 252px;
-  margin: 38px 0 0 -39px;
+  margin: 80px 0 0 -39px;
 }
 
 section.third {
@@ -150,10 +152,10 @@ section.third {
   margin-top: 30px;
 }
 
-section.third div.bluesquare {
+section.third div.brownsquare {
   width: 342px;
   height: 393px;
-  background-color: #C5EEEE;
+  background-color: #E3D5D6;
   text-align: right;
 }
 
@@ -161,7 +163,7 @@ div.thirdtext {
   text-align: right;
   width: 361px;
   height: 252px;
-  margin: 38px 0 0 15px;
+  margin: 80px 0 0 15px;
 }
 
 section.fourth {
@@ -171,17 +173,17 @@ section.fourth {
   margin: 30px 0 30px 0;
 }
 
-.brownsquare {
+.bluesquare {
   width: 342px;
   height: 393px;
-  background-color: #E3D5D6;
+  background-color: #C5EEEE;
 }
 
 div.fourthtext {
   text-align: left;
   width: 361px;
   height: 252px;
-  margin: 38px 0 0 -39px;
+  margin: 80px 0 0 -39px;
 }
 
 div.marquee1 {
@@ -256,21 +258,20 @@ section.about {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  margin: -50px 0 50px 50px;
+  margin: 50px 0 50px 50px;
 }
 
 section.about div.aboutsquare {
-  width: 490px;
-  height: 700px;
+  width: 500px;
+  height: 800px;
   background-color: #E3D5D6;
 }
 
 div.abouttext {
   text-align: left;
-  width: 500px;
-  height: 252px;
-  margin: 30px 0 0 -50px;
-  font-size: 20px;
+  width: 510px;
+  margin: 10px 0 0 -60px;
+  font-size: 24.5px;
 }
 
 /* CONTACT PAGE */
